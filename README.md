@@ -1,0 +1,3 @@
+# React Router v6 Catch-all Route Issue
+
+This repository demonstrates a problem with the catch-all route ('*') in React Router v6.  The catch-all route should only render when no other routes match, but in this case, it's rendering even when a valid route is available, which seems to be a bug related to the way routes are processed. The solution below provides an alternative approach to handle unmatched routes.
